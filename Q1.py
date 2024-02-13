@@ -1,3 +1,5 @@
+#TerryPaul hd9796 2/13/24 Data Collector app
+#begin
 import random  # generate names
 
 # dictionary to store data 
@@ -59,3 +61,4 @@ while True:
         break
     else:
         print("Invalid option, please try again.")
+ #end
