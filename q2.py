@@ -1,14 +1,14 @@
+#TerryPaul hd9796 2/13/24 Game OF chance
+#begin
 import random
 
 # Withdraw and validate function
 def withdraw_and_validate(acc, wager_amount):
     if Bank[acc] >= wager_amount:
+       #per sonfication and visulzation requirment
         print("Doing the calculations for withdrawals")
         print(f"{Bank[acc]} - {wager_amount}")
         Bank[acc] -= wager_amount
-        #TerryP 2/13/24 revison # 1
-        # Sonfication and visualization of withdrawal
-       
         print("Placing your wager of", wager_amount)
         return True
     else:
@@ -68,3 +68,4 @@ while Bank['Account1'] > 0:
     if Bank['Account1'] > 0 and input("Play again? (yes/no): ").lower() != "yes":
         print("You ended your pirate adventure with a balance of", Bank['Account1'], "gold coins. Farewell!")
         break
+#end
